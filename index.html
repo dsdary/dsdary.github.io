@@ -1,0 +1,577 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://db.onlinewebfonts.com/c/0435447fd9d43de93de189e00f2f3dcf?family=Cerebri+Sans+Pro"
+        rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/efce599ce3244b5bf550cbd45d61390c?family=Cerebri+Sans+Pro+Bold"
+        rel="stylesheet">
+        
+        <link rel="stylesheet" href="..\курсовой проект\css\common styles.css">
+        <link rel="stylesheet" href="..\курсовой проект\css\header top styles.css">
+        <link rel="stylesheet" href="..\курсовой проект\css\header bottom styles.css">
+        <link rel="stylesheet" href="..\курсовой проект\css\section 1 styles.css">
+        <link rel="stylesheet" href="..\курсовой проект\css\catalog styles.css">
+        <link rel="stylesheet" href="..\курсовой проект\css\banners styles.css">
+        <link rel="stylesheet" href="..\курсовой проект\css\sliders styles.css">
+        <link rel="stylesheet" href="..\курсовой проект\css\footer styles.css">
+        <link rel="stylesheet" href="..\курсовой проект\css\blog styles.css">
+        
+    <title>GreenStore</title>
+    <style>
+
+
+
+        @media screen and (max-width: 1160px) {
+            .container {
+                padding: 0% 2%;
+            }
+            .container__footer{
+                padding: 62px 2%;
+                flex-wrap: wrap;
+            }
+        }
+
+        @media screen and (max-width: 1045px) {
+            .list, img[src="line2.svg"]{
+                display: none;
+            }
+            
+        
+
+        }
+        
+        @media screen and (max-width: 980px) {
+            .menu, .info {
+                display: none;
+            }
+
+            .burger {
+                display: block;
+                width: 24px;
+                height: 24px;
+            }
+
+            .logo {
+                width: fit-content;
+            }
+        }
+     
+
+        @media screen and (max-width:750px){
+            .button>span, .button>img:first-child, .comment {
+                display: none;
+            }
+            .button{
+                max-width: 50px;
+                min-width: 50px;
+            }
+            .search-form{
+               
+                min-width: fit-content;
+            }
+            .banner{
+                background-position: center;
+            }
+            .categories>.title{
+                font-size: 14px;
+            }
+            .sidebar{
+                display: none;
+            }
+
+        }
+
+        @media screen and (max-width:640px){
+            .bg_drinks{
+                min-width: 100%;
+            }
+            .drinks{
+                flex-wrap: wrap;
+            }
+
+        }
+
+
+
+        @media screen and (max-width:590px){
+            .profile, .language,.header-top>.wrapper:first-child>.wrapper>span {
+                display: none;
+            }
+          .categories{
+            min-width: 47%;
+          } 
+          .categories>p>img{
+            width: 180px;
+          }
+          .banner-wrapper>h1, .banner-wrapper>p,.banner-wrapper {
+            color: white;
+            gap: 30px;
+            align-items: center;
+            text-align: center;
+            
+          }
+          .banner-wrapper>h2{
+color: black;
+          }
+          
+        }
+
+        @media screen and (max-width:500px){
+            
+            .frame,.button{
+                display: none;
+            }
+            .search{
+                gap:0px;
+            }
+            .banner-wrapper>h1{
+                font-size: 36px;
+            }
+            .banner-wrapper>button{
+                margin-top: 0px;
+            }
+
+        }
+
+        @media screen and (max-width:420px){
+             .item{
+                display: none;
+            }
+            .button-search{
+                font-size: 12px;
+            }
+            .categories{
+            min-width: 100%;
+          }
+         
+        }
+
+       
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <div class="container wrapper header-top">
+
+            <div class="wrapper">
+
+                <div class="wrapper ">
+                    <img src="..\курсовой проект\icons\email.svg" alt="">
+                    <span>Hello@colorlib.com</span>
+                </div>
+
+                <img src="..\курсовой проект\icons\line.svg" alt="">
+                <span class="comment">Free Shipping for all order of $99</span>
+            </div>
+
+            <div class="wrapper">
+                <div class="wrapper" style="gap: 40px;">
+                    <div class="wrapper wrapper__socials">
+                        <img src="..\курсовой проект\icons\facebook.svg" alt=""><img src="..\курсовой проект\icons\whatsapp.svg" alt=""><img src="..\курсовой проект\icons\linkedIn.svg"
+                            alt=""><img src="..\курсовой проект\icons\twitter.svg" alt="">
+                    </div>
+
+                    <div class="wrapper wrapper__lang">
+                        <img src="..\курсовой проект\icons\flag.png" alt="">
+                        <span class="language">Engish</span>
+                        <img src="..\курсовой проект\icons\down_arrow.svg" alt="">
+                    </div>
+                </div>
+                <img src="..\курсовой проект\icons\line.svg" alt="">
+
+                <div class="wrapper wrapper__profile">
+                    <img src="..\курсовой проект\icons\profile_icon.svg" alt="">
+                    <span class="profile">Login</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <div class="container">
+
+
+
+        <header class="wrapper header-bottom">
+
+            <div class="wrapper" style="gap: 20px; align-items: baseline;">
+
+                <a href="#" class="logo name">LOGO</a>
+
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">SHOP</a></li>
+                        <li><a href="#">PAGES</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="wrapper basket">
+                <div class="burger"><img src="..\курсовой проект\icons\burger.svg" alt="" style="width: 24px;height: 24px;"></div>
+                <div class="wrapper__icons"><img src="..\курсовой проект\icons\heart.svg" alt=""><img class="items_amount" src="..\курсовой проект\icons\items_amount.svg"
+                        alt=""></div>
+                <div class="wrapper__icons"><img src="..\курсовой проект\icons\basket.svg" alt=""><img class="items_amount"
+                        src="..\курсовой проект\icons\items_amount.svg" alt=""></div>
+                <div class="item"><span>item:</span>$150.00</div>
+            </div>
+
+
+
+        </header>
+
+        <div class="wrapper search">
+            <div class="wrapper" style="gap: 20px; width: 100%; max-width: 915px;">
+                <button class="wrapper button">
+                    <img src="..\курсовой проект\icons\white_burger.svg" alt="" style="width: 24px;height: 24px;">
+                    <span>All Department</span>
+                    <img src="..\курсовой проект\icons\down_arrow.svg" alt="" style="width: 24px;height: 24px;">
+                </button>
+
+
+                <form class="wrapper form search-form">
+
+                    <div class="wrapper" style="gap: 24px;">
+                        <div>
+                            <select name="" class="list">
+                                <option value="">All Categories</option>
+                                <option value="1">Meat</option>
+                                <option value="2">Fruit</option>
+                                <option value="3">Vegetables</option>
+
+                            </select>
+                        </div>
+                        <img src="..\курсовой проект\icons\line2.svg" alt="">
+                        <div>
+                            <input type="text" placeholder="What do you need?" class="search-bar">
+                        </div>
+                    </div>
+
+
+                    <button type="submit" class="button-search">SEARCH</button>
+
+                </form>
+            </div>
+
+            <div class="wrapper" style="gap: 20px;">
+                <div class="frame"><img src="..\курсовой проект\icons\phone.svg" alt=""></div>
+                <div class="info">
+                    <span>+6511.188.888<br></span>
+                    <span>support 24/7 time</span>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    <div class="wrapper section1">
+        <aside class="sidebar">
+            
+            <ul>
+                <li><a href="#">Fresh Meat </a></li> 
+                <li><a href="#">Vegetables </a></li>
+                <li><a href="#">Fruit & Nut Gifts </a></li>
+                <li><a href="#">Fresh Berries </a></li>
+                <li><a href="#">Ocean Foods </a></li>
+                <li><a href="#">Butter & Eggs </a></li>
+                <li><a href="#">Fastfood </a></li>
+                <li><a href="#">Fresh Onion </a></li>
+                <li><a href="#">Papayaya & Crisps </a></li>
+                <li><a href="#">Oatmeal </a></li>
+                <li><a href="#">Fresh Bananas </a></li>
+            </ul>
+        </aside>
+
+        <section class="banner">
+
+            <div class="wrapper banner-wrapper" >
+                
+                    <h2>FRUIT FRESH</h2>
+                    <h1>
+                        Vegetable<br>
+                        100% Organic
+                    </h1>
+                    <p class="">Free Pickup and Delivery Available</p>
+                
+                    <button type="submit" class="button-search"> SHOP NOW </button>
+               
+
+            </div>
+           
+
+
+
+        </section>
+ 
+    </div>
+
+        <div class="wrapper wrapper__categories">
+            <div class="categories">
+                <p style="text-align: center;"><img src="..\курсовой проект\img\fresh-fruit.png" alt=""></p>
+                <div class="title">FRESH FRUIT</div>
+            </div>
+            <div class="categories">
+                <p style="text-align: center;"><img src="..\курсовой проект\img\dried-fruit.png" alt=""></p>
+                <div class="title">DRIED FRUIT</div>
+            </div>
+            <div class="categories">
+                <p style="text-align: center;"><img src="..\курсовой проект\img\vegetables.png" alt=""></p>
+                <div class="title">VEGETABLES</div>
+            </div>
+            <div class="categories">
+                <p style="text-align: center;"><img src="..\курсовой проект\img\drink-fruits.png" alt=""></p>
+                <div class="title">DRINK FRUITS</div>
+            </div>
+
+        </div>
+
+
+
+        <div class="wrapper drinks">
+            <div class="wrapper bg_drinks">
+                <div class="hwrapper wrapper-drinks">
+                 <h1>summer fruits</h1>
+                 <p>100% all natural fruit juice </p>
+                 <button type="submit" class="button-search"> SHOP NOW </button>
+                </div>
+            </div>
+
+            <div class="wrapper bg_drinks">
+                <div class="hwrapper wrapper-drinks">
+                 <h1>Dried & Drink <br>Fruits</h1>
+                 <p style=" margin-bottom: 10px; line-height: 20px;">100% all natural fruit juice </p>
+                 <button type="submit" class="button-search"> SHOP NOW </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <section class="wrapper sliders">
+
+            <div class="hwrapper slider">
+                <div class="wrapper">
+                    <h1>Latest Product</h1>
+                    <div class="wrapper" style="gap: 20px;">
+                        <div class="frame"><img src="..\курсовой проект\icons\side_arrow.svg" alt="" style="padding: 13px;"></div>
+                        <div class="frame"><img src="..\курсовой проект\icons\side_arrow.svg" alt=""
+                                style="padding: 13px; transform: scale(-1, 1);"></div>
+                    </div>
+                </div>
+                <div class="wrapper item_card"><img src="..\курсовой проект\img\cauliflower.png" alt="">
+                    <p><span>Cauliflower</span><br> <span class="price">$30.00</span></p>
+                </div>
+                <div class="wrapper item_card"><img src="..\курсовой проект\img\tomato.png" alt="">
+                    <p><span>Tomato hybrid</span><br> <span class="price">$30.00</span></p>
+                </div>
+                <div class="wrapper item_card"><img src="..\курсовой проект\img\capsicum-green.png" alt="">
+                    <p><span>Capsicum-green</span><br> <span class="price">$30.00</span></p>
+                </div>
+
+
+            </div>
+
+            <div class="hwrapper slider">
+                <div class="wrapper">
+                    <h1>Top rated Products</h1>
+                    <div class="wrapper" style="gap: 20px;">
+                        <div class="frame"><img src="..\курсовой проект\icons\side_arrow.svg" alt="" style="padding: 13px;"></div>
+                        <div class="frame"><img src="..\курсовой проект\icons\side_arrow.svg" alt=""
+                                style="padding: 13px; transform: scale(-1, 1);"></div>
+                    </div>
+                </div>
+                <div class="wrapper item_card"><img src="..\курсовой проект\img\quince.png" alt="">
+                    <p><span>Organic quince</span><br> <span class="price">$30.00</span></p>
+                </div>
+                <div class="wrapper item_card"><img src="..\курсовой проект\img\pomegranate.png" alt="">
+                    <p><span>Pomegranate</span><br> <span class="price">$30.00</span></p>
+                </div>
+
+                <div class="wrapper item_card"><img src="..\курсовой проект\img\green apple.png" alt="">
+                    <p><span>Green apple</span><br> <span class="price">$30.00</span></p>
+                </div>
+
+            </div>
+
+            <div class="hwrapper slider">
+                <div class="wrapper">
+                    <h1>Review Products</h1>
+                    <div class="wrapper" style="gap: 20px;">
+                        <div class="frame"><img src="..\курсовой проект\icons\side_arrow.svg" alt="" style="padding: 13px;"></div>
+                        <div class="frame"><img src="..\курсовой проект\icons\side_arrow.svg" alt=""
+                                style="padding: 13px; transform: scale(-1, 1);"></div>
+                    </div>
+                </div>
+                <div class="wrapper item_card"><img src="..\курсовой проект\img\blueberry.png" alt="">
+                    <p><span>Blueberry</span><br> <span class="price">$30.00</span></p>
+                </div>
+                <div class="wrapper item_card"><img src="..\курсовой проект\img\nut.png" alt="">
+                    <p><span>Hazelnuts filbert nut </span><br> <span class="price">$30.00</span></p>
+                </div>
+                <div class="wrapper item_card"><img src="..\курсовой проект\img\rasberry.png" alt="">
+                    <p><span>Fresh raspberry</span><br> <span class="price">$30.00</span></p>
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+        <section class="wrapper catalog">
+            <h1>Featured Product</h1>
+            <div class="line" style="width:80px; height: 4px; background: #7FAD39"></div>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Oranges</a></li>
+                    <li><a href="#">Fresh Meat</a></li>
+                    <li><a href="#">Vegetables</a></li>
+                    <li><a href="#">Fastfood</a></li>
+                </ul>
+            </nav>
+
+            <div class="wrapper gap20" style="flex-wrap: wrap; justify-content: center;">
+                <div class="hwrapper Item_card"><img src="..\курсовой проект\img\Bunch of bananas.png" alt="">
+                    <p class="hwrapper"><span>Bunch of bananas</span><br> <span class="price">$30.00</span></p>
+                </div>
+                <div class="hwrapper Item_card"><img src="..\курсовой проект\img\apricot.png" alt="">
+                    <p class="hwrapper"><span>Fresh organic apricot</span><br> <span class="price">$30.00</span></p>
+                </div>
+                <div class="hwrapper Item_card"><img src="..\курсовой проект\img\avokado.png" alt="">
+                    <p class="hwrapper"><span>Avokado fruit</span><br> <span class="price">$30.00</span></p>
+                </div>
+                <div class="hwrapper Item_card"><img src="..\курсовой проект\img\apple.png" alt="">
+                    <p class="hwrapper"><span>Red apple</span><br> <span class="price">$30.00</span></p>
+                </div>
+                <div class="hwrapper Item_card"><img src="..\курсовой проект\img\figs.png" alt="">
+                    <p class="hwrapper"><span>Two fresh figs</span><br> <span class="price">$30.00</span></p>
+                </div>
+                <div class="hwrapper Item_card"><img src="..\курсовой проект\img\cucumber.png" alt="">
+                    <p class="hwrapper"><span>Cucumber</span><br> <span class="price">$30.00</span></p>
+                </div>
+                <div class="hwrapper Item_card"><img src="..\курсовой проект\img\beef.png" alt="">
+                    <p class="hwrapper"><span>Beef steak</span><br> <span class="price">$30.00</span></p>
+                </div>
+                <div class="hwrapper Item_card"><img src="..\курсовой проект\img\broccoli.png" alt="">
+                    <p class="hwrapper"><span>Raw broccoli</span><br> <span class="price">$30.00</span></p>
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+        <section class="wrapper catalog">
+            <h1>From The Blog</h1>
+            <div class="line" style="width:80px; height: 4px; background: #7FAD39"></div>
+
+            <div class=" Blog">
+                <div class="hwrapper blog"><img src="..\курсовой проект\img\blog img 1.png" alt="">
+                    <div class="wrapper"><img src="..\курсовой проект\icons\calendar.svg" alt="">
+                        <p>May 4,2021</p><img src="..\курсовой проект\icons\comments.svg" alt="">
+                        <p>54</p>
+                    </div>
+                    <h1>Busting Salad Myths: Eat a Well-Built Salad (If You Want To)</h1>
+                    <p>This is usually said when someone is trying to lose weight or be “super healthy.” First, to lose
+                        weight, it is widely understood that we must burn more calories than we eat. Thus <span>Read
+                            More</span></p>
+                </div>
+
+                <div class="hwrapper blog"><img src="..\курсовой проект\img\blog img 2.png" alt="">
+                    <div class="wrapper"><img src="..\курсовой проект\icons\calendar.svg" alt="">
+                        <p>May 4,2021</p><img src="..\курсовой проект\icons\comments.svg" alt="">
+                        <p>54</p>
+                    </div>
+                    <h1>Vitamin c: how much and which
+                        sources are best for boosting immunity?</h1>
+                    <p>During cold and flu season, we try to do all we can to prevent illness or speed up how fast we
+                        recover from illness. One such strategy many employ is the use of Vitamin C for a natural
+                        remedy. <span>Read More</span></p>
+                </div>
+
+                <div class="hwrapper blog"><img src="..\курсовой проект\img\blog img 3.png" alt="">
+                    <div class="wrapper"><img src="..\курсовой проект\icons\calendar.svg" alt="">
+                        <p>May 4,2021</p><img src="..\курсовой проект\icons\comments.svg" alt="">
+                        <p>58</p>
+                    </div>
+                    <h1>Pump Up the Produce Power in Winter Meals</h1>
+                    <p>We’ve all been here before: When it seems the long, gray winter will never end and you make one
+                        more pot of hearty vegetable soup or another casserole; <span>Read More</span></p>
+                </div>
+
+
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container container__footer wrapper">
+
+            <div class="hwrapper"><a href="#" class="logo name" style="color: #F5F5F5;">LOGO</a><span>Address: 60-49
+                    Road 11378 New York</span><span>Phone: +65 11.188.888</span><span> Email: hello@colorlib.com</span>
+            </div>
+
+            <nav class=" useful__links">
+                <h2>USEFUL LINKS</h2>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">About Our Shop</a></li>
+                    <li><a href="#">Secure Shopping</a></li>
+                    <li><a href="#">Delivery infomation</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Our Sitemap</a></li>
+                </ul>
+            </nav>
+
+            <nav class=" useful__links">
+                <ul>
+                    <li><a href="#">Who We Are</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Innovation</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                </ul>
+            </nav>
+
+            <div class="hwrapper" style="align-items: flex-start;">
+                <div class="">
+                    <h1>Sign Up for Our Newsletter</h1>
+                    <p>Get e-mail updates about our latest Shop and special offers.</p>
+                </div>
+                <form class="wrapper form footer-form">
+                    <div>
+                        <input type="text" placeholder="Enter Email Address" class="search-bar">
+                    </div>
+                    <button type="submit" class="button-search">SUBSCRIBE</button>
+                </form>
+                <div class="wrapper wrapper__socials">
+                    <img src="..\курсовой проект\icons\facebook.svg" alt=""><img src="..\курсовой проект\icons\whatsapp.svg" alt=""><img src="..\курсовой проект\icons\linkedIn.svg" alt=""><img
+                        src="..\курсовой проект\icons\twitter.svg" alt="">
+                </div>
+                <img src="..\курсовой проект\icons\payment icon.svg" alt="">
+            </div>
+
+
+
+
+
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
