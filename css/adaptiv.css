@@ -1,0 +1,161 @@
+@media screen and (max-width: 1160px) {
+    .container {
+        padding: 0% 2%;
+    }
+
+    .container__footer {
+        padding: 62px 2%;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1045px) {
+
+    .list,
+    img[src="icons/line2.svg"] {
+        display: none;
+    }
+
+
+
+}
+
+@media screen and (max-width: 980px) {
+
+    .menu,
+    .info {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
+
+    .logo {
+        width: fit-content;
+    }
+}
+
+
+@media screen and (max-width:750px) {
+
+    .button>span,
+    .button>img:first-child,
+    .comment {
+        display: none;
+    }
+
+    .button {
+        max-width: 50px;
+        min-width: 50px;
+    }
+
+    .search-form {
+
+        min-width: fit-content;
+    }
+
+    .banner {
+        background-position: center;
+    }
+
+    .categories>.title {
+        font-size: 14px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:640px) {
+    .bg_drinks {
+        min-width: 100%;
+    }
+
+    .drinks {
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
+@media screen and (max-width:590px) {
+
+    .profile,
+    .language,
+    .header-top>.wrapper:first-child>.wrapper>span {
+        display: none;
+    }
+
+    .categories {
+        min-width: 47%;
+    }
+
+    .categories>p>img {
+        width: 180px;
+    }
+
+    .banner-wrapper>h1,
+    .banner-wrapper>p,
+    .banner-wrapper {
+        color: white;
+        gap: 30px;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .banner-wrapper>h2 {
+        color: black;
+    }
+    .banner-wrapper{
+        gap:0px;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+
+    .frame,
+    .button,
+    .footer-form {
+        display: none;
+    }
+
+    .search {
+        gap: 0px;
+    }
+
+    .banner-wrapper>h1 {
+        font-size: 36px;
+    }
+
+    .banner-wrapper>button {
+        margin-top: 0px;
+    }
+
+    .catalog>.menu ul {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:420px) {
+    .item {
+        display: none;
+    }
+
+    .button-search {
+        font-size: 12px;
+    }
+
+    .categories {
+        min-width: 100%;
+    }
+
+}

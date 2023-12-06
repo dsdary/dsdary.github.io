@@ -1,0 +1,39 @@
+/*первая секция Header top*/
+.header-top {
+    height: 48px;
+    gap: 5vw;
+    color: #FFF;
+    font-size: 12px;
+
+}
+
+.header-top>.wrapper:first-child,
+.wrapper__socials,
+.header-top>.wrapper:last-child {
+    gap: 20px;
+}
+.language{
+    background-color: transparent;
+    border-style: none;
+ 
+
+    width: fit-content;
+    color: #FFF;
+
+font-family: Cerebri Sans Pro;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.wrapper__lang,
+.header-top>.wrapper:first-child>.wrapper,
+.wrapper__profile {
+    gap: 9px;
+}
+
+
+.wrapper__icons {
+    width: 24px;
+    height: 24px;
+}

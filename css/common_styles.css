@@ -1,0 +1,85 @@
+* {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        @font-face {
+            src: url(../fonts/Inter-VariableFont_slnt,wght.ttf);
+            font-family: Inter;
+        }
+
+
+        @font-face {
+            src: url(../fonts/CerebriSansPro-Regular.ttf);
+            font-family: Cerebri Sans Pro;
+        }
+
+        @font-face {
+            src: url(../fonts/CerebriSansPro-Heavy.ttf);
+            font-family: Cerebri Sans Pro Bold;
+        }
+
+        @font-face {
+            src: url(../fonts/CerebriSansPro-Medium.ttf);
+            font-family: Cerebri Sans Pro Medium;
+        }
+        body {
+            font-family: Cerebri Sans Pro;
+        }
+
+        .container {
+            max-width: 1145px;
+            margin: auto;
+        }
+
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .hwrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        h1,
+        .title,  .price {
+            font-family: Cerebri Sans Pro Bold;
+        }
+
+        .banner>img,
+        .categories>img,
+        .Item_card>img {
+            mix-blend-mode: darken;
+        }
+
+        footer,
+        header {
+            width: 100%;
+
+            background-color: black;
+
+        }
+button:hover{
+    background-color:#3e6800;
+    cursor: pointer;
+}
+ .item_card:hover{
+    background-color: #f5f5f5;
+}
+.categories:hover, .frame:hover{
+    background-color: #dfdede;
+}
+li a:hover, .blog>p>span:hover{
+    color: #3e6800;
+    font-family: Cerebri Sans Pro Medium;
+    font-size: 18px;
+}
