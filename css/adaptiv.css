@@ -100,7 +100,7 @@
         width: 180px;
     }
 
-    .banner-wrapper>h1,
+    .banner-wrapper>h2,
     .banner-wrapper>p,
     .banner-wrapper {
         color: white;
@@ -110,7 +110,7 @@
 
     }
 
-    .banner-wrapper>h2 {
+    .banner-wrapper>h1 {
         color: black;
     }
     .banner-wrapper{
@@ -131,7 +131,7 @@
         gap: 0px;
     }
 
-    .banner-wrapper>h1 {
+    .banner-wrapper>h2 {
         font-size: 36px;
     }
 
