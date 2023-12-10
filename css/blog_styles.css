@@ -11,7 +11,7 @@
     flex-shrink: 0;
 }
 
-.blog>h1 {
+h10, h11, h12 {
     color: #2A2A2A;
 
     font-size: 20px;
