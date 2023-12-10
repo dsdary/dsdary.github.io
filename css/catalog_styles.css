@@ -5,7 +5,6 @@
 
 }
 
-h8, h9,
 .catalog>.line,
 .catalog>.menu {
     width: 100%;
@@ -15,6 +14,7 @@ h8, h9 {
     margin-bottom: 26px;
     text-align: center;
     font-size: 34px;
+     width: 100%;
 }
 
 .catalog>.line {
