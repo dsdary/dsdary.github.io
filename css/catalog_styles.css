@@ -10,7 +10,7 @@
     width: 100%;
 }
 
-h8, h9 {
+.catalog>h2, .catalog>h3 {
     margin-bottom: 26px;
     text-align: center;
     font-size: 34px;
