@@ -16,7 +16,7 @@ align-items: center;
      margin-bottom: 20px;
  }
 
- .sliders>.slider>.wrapper>h4 {
+h5, h6, h7 {
      color: #2A2A2A;
      font-size: 24px;
 
